@@ -14,7 +14,6 @@ body {
 .App {
     max-width: 960px;
     margin: 0 auto;
-    overflow: hidden;
 }
 .title h1 {
     color: var(--primary);
