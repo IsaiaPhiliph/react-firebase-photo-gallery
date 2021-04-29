@@ -32,6 +32,38 @@ body {
 }
 
 /* upload form styles */
+form {
+    margin: 30px auto 10px;
+    text-align: center;
+}
+label input {
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    margin: 10px auto;
+    line-height: 30px;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 24px;
+}
+label:hover {
+    background: var(--primary);
+    color: white;
+}
+.output {
+    height: 60px;
+    font-size: 0.8rem;
+}
+.error {
+    color: var(--error);
+}
 
 /* progress bar styles */
 
@@ -56,6 +88,8 @@ body {
     position: relative;
     padding-top: 100%;
     overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .img-wrap img {
     width: 100%;
