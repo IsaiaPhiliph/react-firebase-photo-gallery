@@ -9,7 +9,6 @@ function ProgressBar({ file, setFile }) {
             setFile(null);
         }
     }, [url, setFile]);
-    console.log(progress, url);
     return (
         <div className="progress-bar" style={{ width: progress + "%" }}></div>
     );
